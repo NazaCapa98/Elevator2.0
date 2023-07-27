@@ -2635,13 +2635,340 @@
         "name": "Bullet3",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elevator2.0/elevator.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elevator2.0\\elevator.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elevator2.0/player_idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elevator2.0\\player_idle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elevator2.0/player_walk.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elevator2.0\\player_walk.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elevator2.0/player_agachado.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elevator2.0\\player_agachado.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elevator2.0/player_attack.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elevator2.0\\player_attack.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elevator2.0/player_agachado_shoot.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elevator2.0\\player_agachado_shoot.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elevator2.0/player_die_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elevator2.0\\player_die_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elevator2.0/player_die_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elevator2.0\\player_die_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elevator2.0/player_die_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elevator2.0\\player_die_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elevator2.0/NewSprite6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elevator2.0\\NewSprite6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elevator2.0/NewSprite8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elevator2.0\\NewSprite8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elevator2.0/enemy_idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elevator2.0\\enemy_idle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elevator2.0/enemy_die_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elevator2.0\\enemy_die_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elevator2.0/enemy_die_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elevator2.0\\enemy_die_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elevator2.0/enemy_die_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elevator2.0\\enemy_die_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elevator2.0/enemy_shoot.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elevator2.0\\enemy_shoot.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elevator2.0/enemy_walk.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elevator2.0\\enemy_walk.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elevator2.0/assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elevator2.0\\assets\\NewSprite6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elevator2.0/assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elevator2.0\\assets\\NewSprite7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elevator2.0/assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elevator2.0\\assets\\NewSprite8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elevator2.0/door_left_open_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elevator2.0\\door_left_open_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elevator2.0/door_left_open_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elevator2.0\\door_left_open_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elevator2.0/door_left_open_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elevator2.0\\door_left_open_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elevator2.0/door_left_open_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elevator2.0\\door_left_open_03.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elevator2.0/door_left_open_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elevator2.0\\door_left_open_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elevator2.0/door_left_open_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elevator2.0\\door_left_open_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elevator2.0/left_door14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elevator2.0\\left_door14.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elevator2.0/NewSprite2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elevator2.0\\NewSprite2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wall Corner Front Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "d6e8593b6a42b49ac4f481ec113bfb4d662e883cccb25d5e6edc8055fe3b55dc_Wall Corner Front Right.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Walls/d6e8593b6a42b49ac4f481ec113bfb4d662e883cccb25d5e6edc8055fe3b55dc_Wall Corner Front Right.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elevator2.0/assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elevator2.0\\assets\\NewSprite5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elevator2.0/assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elevator2.0\\assets\\NewSprite9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Elevator2.0_assets_NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Elevator2.0\\assets\\NewSprite9",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Elevator2.0_assets_NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Elevator2.0\\assets\\NewSprite10",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elevator2.0/enemyrange.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elevator2.0\\enemyrange.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Range.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Range.png\"}",
+        "name": "Range",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Range2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Range2",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
   "objects": [
     {
-      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Door",
       "tags": "",
@@ -2661,7 +2988,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "left_door.png",
+                  "image": "Elevator2.0\\left_door14.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2678,7 +3005,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "door_left_open_04.png",
+                  "image": "Elevator2.0\\door_left_open_0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2695,7 +3022,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "door_left_open_3.png",
+                  "image": "Elevator2.0\\door_left_open_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2712,7 +3039,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "door_left_open_2.png",
+                  "image": "Elevator2.0\\door_left_open_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2741,7 +3068,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "door_left_open_2.png",
+                  "image": "Elevator2.0\\door_left_open_4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2758,7 +3085,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "door_left_open_1.png",
+                  "image": "Elevator2.0\\door_left_open_3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2775,7 +3102,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "door_left_open_0.png",
+                  "image": "Elevator2.0\\door_left_open_03.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2792,7 +3119,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "left_door.png",
+                  "image": "Elevator2.0\\left_door14.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2814,7 +3141,6 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Background",
       "tags": "",
@@ -3086,7 +3412,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7873453601745145,
+        "zoomFactor": 0.6038663253852767,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3165,8 +3491,8 @@
           "name": "Elevator",
           "persistentUuid": "5cbb1852-27b3-4e1b-a878-fa5eb14f4072",
           "width": 71,
-          "x": 624,
-          "y": -20,
+          "x": 625,
+          "y": -21,
           "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
@@ -3656,22 +3982,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 58,
-          "layer": "",
-          "name": "Enemy",
-          "persistentUuid": "fb2db707-4fc0-4756-9da6-c594eb330268",
-          "width": 29,
-          "x": 817,
-          "y": 169,
-          "zOrder": 48,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
           "height": 67,
           "layer": "",
           "name": "Door",
@@ -3957,54 +4267,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 109,
-          "layer": "",
-          "name": "Elevator",
-          "persistentUuid": "0abeb10c-69ec-429a-a988-a58b928e9676",
-          "width": 71,
-          "x": 848,
-          "y": 671,
-          "zOrder": 50,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 109,
-          "layer": "",
-          "name": "Elevator",
-          "persistentUuid": "4760c3ce-20e2-4c75-951f-137c12fef155",
-          "width": 71,
-          "x": 378,
-          "y": 671,
-          "zOrder": 50,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 109,
-          "layer": "",
-          "name": "Elevator",
-          "persistentUuid": "313bddd5-5c46-42fc-a8c9-de04e7eda28e",
-          "width": 71,
-          "x": 626,
-          "y": 889,
-          "zOrder": 50,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "Elevator moves",
@@ -4257,6 +4519,197 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Door",
+          "persistentUuid": "e8312b23-c5af-4ac3-983a-1beed701baa6",
+          "width": 0,
+          "x": 778,
+          "y": 285,
+          "zOrder": 68,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 110,
+          "layer": "",
+          "name": "Elevator2",
+          "persistentUuid": "724e7d2a-c858-4fa0-92dd-1e3b5337a09a",
+          "width": 70,
+          "x": 380,
+          "y": 670,
+          "zOrder": 69,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 109,
+          "layer": "",
+          "name": "Elevator3",
+          "persistentUuid": "10b53123-37fa-44f6-858b-a1832cb423af",
+          "width": 69,
+          "x": 849,
+          "y": 671,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 111,
+          "layer": "",
+          "name": "Elevator4",
+          "persistentUuid": "a7eeebb0-a883-4886-8de6-1a4d30495134",
+          "width": 69,
+          "x": 628,
+          "y": 888,
+          "zOrder": 71,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 58,
+          "layer": "",
+          "name": "Enemy",
+          "persistentUuid": "664e2d23-4de6-49aa-9876-fce7c0e1a0c3",
+          "width": 29,
+          "x": 10,
+          "y": 1216,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 58,
+          "layer": "",
+          "name": "Enemy",
+          "persistentUuid": "77d3d0bb-8058-4fdd-9717-f5da1119c58c",
+          "width": 29,
+          "x": 706,
+          "y": 168,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 58,
+          "layer": "",
+          "name": "Enemy",
+          "persistentUuid": "12347a3c-6d71-4b16-8bd0-3f9db5f77524",
+          "width": 29,
+          "x": 548,
+          "y": 385,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 58,
+          "layer": "",
+          "name": "Enemy",
+          "persistentUuid": "c56db87e-e04c-48b4-a1e4-97bfbffeb552",
+          "width": 29,
+          "x": 883,
+          "y": 494,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 58,
+          "layer": "",
+          "name": "Enemy",
+          "persistentUuid": "49cca3e2-dc1b-475c-bc0a-2d07bca77846",
+          "width": 29,
+          "x": 386,
+          "y": 276,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 58,
+          "layer": "",
+          "name": "Enemy",
+          "persistentUuid": "2cc03eaf-5bb6-40b9-a0af-3102774d8829",
+          "width": 29,
+          "x": 838,
+          "y": 604,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 58,
+          "layer": "",
+          "name": "Enemy",
+          "persistentUuid": "44294773-b1fb-4997-bb87-321705728781",
+          "width": 29,
+          "x": 453,
+          "y": 714,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 58,
+          "layer": "",
+          "name": "Enemy",
+          "persistentUuid": "848068e8-3296-45f2-bcc7-83de28a9be5a",
+          "width": 29,
+          "x": 813,
+          "y": 818,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -4273,7 +4726,6 @@
           "behaviors": []
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "3cc817a8e0bf681542500da784bfe78049866b3db3379875d4af5091faba93e5",
           "name": "WallBrickFlat",
           "tags": "",
@@ -4338,7 +4790,7 @@
           "height": 32,
           "name": "Wall",
           "tags": "",
-          "texture": "Wall Right.png",
+          "texture": "d6e8593b6a42b49ac4f481ec113bfb4d662e883cccb25d5e6edc8055fe3b55dc_Wall Corner Front Right.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
@@ -4378,7 +4830,6 @@
           "behaviors": []
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Elevator",
           "tags": "",
@@ -4426,7 +4877,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "elevator.png",
+                      "image": "Elevator2.0\\elevator.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4442,38 +4893,356 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 16,
-                            "y": 9
+                            "x": 0,
+                            "y": 50
                           },
                           {
-                            "x": 48,
-                            "y": 9
+                            "x": 0,
+                            "y": 46.5
                           },
                           {
-                            "x": 48,
-                            "y": 14
+                            "x": 30,
+                            "y": 46.5
                           },
                           {
-                            "x": 16,
-                            "y": 14.5
+                            "x": 30,
+                            "y": 50
                           }
                         ],
                         [
                           {
-                            "x": 15.5,
-                            "y": 56
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 48.5,
-                            "y": 56
+                            "x": 30,
+                            "y": 0
                           },
                           {
-                            "x": 48.5,
-                            "y": 60.5
+                            "x": 30,
+                            "y": 4
                           },
                           {
-                            "x": 15.5,
-                            "y": 60.5
+                            "x": 0,
+                            "y": 4
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Elevator2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "isWaiting",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "isDecending",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "waitTimer",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "Jumpthru",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Elevator",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Elevator2.0\\elevator.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 46.5
+                          },
+                          {
+                            "x": 30,
+                            "y": 46.5
+                          },
+                          {
+                            "x": 30,
+                            "y": 50
+                          }
+                        ],
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 4
+                          },
+                          {
+                            "x": 0,
+                            "y": 4
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Elevator3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "isWaiting",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "isDecending",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "waitTimer",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "Jumpthru",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Elevator",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Elevator2.0\\elevator.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 46.5
+                          },
+                          {
+                            "x": 30,
+                            "y": 46.5
+                          },
+                          {
+                            "x": 30,
+                            "y": 50
+                          }
+                        ],
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 4
+                          },
+                          {
+                            "x": 0,
+                            "y": 4
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Elevator4",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "isWaiting",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "isDecending",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "waitTimer",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "Jumpthru",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Elevator",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Elevator2.0\\elevator.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 46.5
+                          },
+                          {
+                            "x": 30,
+                            "y": 46.5
+                          },
+                          {
+                            "x": 30,
+                            "y": 50
+                          }
+                        ],
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 0
+                          },
+                          {
+                            "x": 30,
+                            "y": 4
+                          },
+                          {
+                            "x": 0,
+                            "y": 4
                           }
                         ]
                       ]
@@ -4505,7 +5274,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform",
           "tags": "",
@@ -4534,7 +5302,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite3.png",
+                      "image": "Elevator2.0\\NewSprite2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4587,7 +5355,6 @@
           "behaviors": []
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Street2",
           "tags": "",
@@ -4630,7 +5397,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "NewSprite",
           "tags": "",
@@ -4642,7 +5408,6 @@
           "animations": []
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Player",
           "tags": "",
@@ -4753,7 +5518,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "player_idle.png",
+                      "image": "Elevator2.0\\player_idle.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4782,7 +5547,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "player_walk.png",
+                      "image": "Elevator2.0\\player_walk.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4811,7 +5576,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "player_agachado.png",
+                      "image": "Elevator2.0\\player_agachado.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4840,7 +5605,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "player_attack.png",
+                      "image": "Elevator2.0\\player_attack.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4869,7 +5634,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "player_agachado_shoot.png",
+                      "image": "Elevator2.0\\player_agachado_shoot.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4898,7 +5663,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "player_die_0.png",
+                      "image": "Elevator2.0\\player_die_0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4915,7 +5680,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "player_die_1.png",
+                      "image": "Elevator2.0\\player_die_1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4932,7 +5697,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "player_die_2.png",
+                      "image": "Elevator2.0\\player_die_2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4954,7 +5719,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Bullet",
           "tags": "",
@@ -4975,7 +5739,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Bullet2",
+                      "image": "Elevator2.0\\NewSprite6.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4997,7 +5761,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Bullet3",
           "tags": "",
@@ -5018,7 +5781,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewSprite8.png",
+                      "image": "Elevator2.0\\NewSprite8.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5040,7 +5803,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Bullet2",
           "tags": "",
@@ -5083,7 +5845,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Enemy",
           "tags": "",
@@ -5103,7 +5864,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "enemy_idle.png",
+                      "image": "Elevator2.0\\enemy_idle.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5132,7 +5893,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "enemy_die_0.png",
+                      "image": "Elevator2.0\\enemy_die_0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5149,7 +5910,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "enemy_die_1.png",
+                      "image": "Elevator2.0\\enemy_die_1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5166,7 +5927,65 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "enemy_die_2.png",
+                      "image": "Elevator2.0\\enemy_die_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Shoot",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Elevator2.0\\enemy_shoot.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Walk",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Elevator2.0\\enemy_walk.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5188,7 +6007,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Fire",
           "tags": "",
@@ -5209,7 +6027,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewSprite5",
+                      "image": "Elevator2.0\\assets\\NewSprite5.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5231,7 +6049,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "GoUp",
           "tags": "",
@@ -5252,7 +6069,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewSprite6",
+                      "image": "Elevator2.0\\assets\\NewSprite6.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5274,7 +6091,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "GoDown",
           "tags": "",
@@ -5295,7 +6111,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewSprite7",
+                      "image": "Elevator2.0\\assets\\NewSprite7.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5317,7 +6133,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Wait",
           "tags": "",
@@ -5338,7 +6153,91 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewSprite8",
+                      "image": "Elevator2.0\\assets\\NewSprite8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "EnemyRangeleft",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Range",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Range2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "EnemyRangeRight",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Range",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Range",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5980,7 +6879,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Elevator",
+          "name": "Elevator1",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -6015,10 +6914,412 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CollisionNP"
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Elevator",
+                        "GoUp",
+                        "",
+                        "",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Arreter"
+                  },
+                  "parameters": [
+                    "Elevator"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
                   },
                   "parameters": [
                     "Elevator",
+                    "isDecending",
+                    "*",
+                    "-1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Elevator",
+                    "isWaiting",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Elevator",
+                        "GoDown",
+                        "",
+                        "",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Arreter"
+                  },
+                  "parameters": [
+                    "Elevator"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Elevator",
+                    "isDecending",
+                    "*",
+                    "-1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Elevator",
+                    "isWaiting",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Elevator",
+                        "Wait",
+                        "",
+                        "",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Elevator",
+                        "isDecending",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Arreter"
+                  },
+                  "parameters": [
+                    "Elevator"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Elevator",
+                    "isWaiting",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Elevator",
+                    "isWaiting",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Elevator",
+                    "waitTimer",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Elevator",
+                        "waitTimer",
+                        ">",
+                        "150"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Elevator",
+                        "isDecending",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Elevator",
+                    "waitTimer",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Elevator",
+                    "isWaiting",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Elevator",
+                    "0",
+                    "-75",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Elevator",
+                        "waitTimer",
+                        ">",
+                        "150"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Elevator",
+                        "isDecending",
+                        "=",
+                        "-1"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Elevator",
+                    "waitTimer",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Elevator",
+                    "isWaiting",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Elevator",
+                    "0",
+                    "75",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Elevator2",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Elevator2",
+                    "isDecending",
+                    "=",
+                    "-1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Elevator2",
                     "GoUp",
                     "",
                     "",
@@ -6032,29 +7333,493 @@
                   "parameters": []
                 }
               ],
-              "actions": []
+              "actions": [
+                {
+                  "type": {
+                    "value": "Arreter"
+                  },
+                  "parameters": [
+                    "Elevator2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Elevator2",
+                    "isDecending",
+                    "*",
+                    "-1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Elevator2",
+                    "isWaiting",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Elevator2",
+                    "GoDown",
+                    "",
+                    "",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Arreter"
+                  },
+                  "parameters": [
+                    "Elevator"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Elevator2",
+                    "isDecending",
+                    "*",
+                    "-1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Elevator2",
+                    "isWaiting",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Elevator2",
+                    "Wait",
+                    "",
+                    "",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Elevator2",
+                    "isDecending",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Arreter"
+                  },
+                  "parameters": [
+                    "Elevator2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Elevator2",
+                    "isWaiting",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Elevator2",
+                    "isWaiting",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Elevator2",
+                    "waitTimer",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Elevator2",
+                    "waitTimer",
+                    ">",
+                    "150"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Elevator2",
+                    "isDecending",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Elevator2",
+                    "waitTimer",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Elevator2",
+                    "isWaiting",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Elevator2",
+                    "0",
+                    "-75",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Elevator2",
+                    "waitTimer",
+                    ">",
+                    "150"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Elevator2",
+                    "isDecending",
+                    "=",
+                    "-1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Elevator2",
+                    "waitTimer",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Elevator2",
+                    "isWaiting",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Elevator2",
+                    "0",
+                    "75",
+                    "1"
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Enemy",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EnemyRangeleft",
+                "(Enemy.X() - 800)",
+                "Enemy.Y()",
+                "\"Elevator moves\""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "EnemyRangeleft",
+                "Enemy"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Enemy",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EnemyRangeRight",
+                "Enemy.X()",
+                "Enemy.Y()",
+                "\"Elevator moves\""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "EnemyRangeleft",
+                "Enemy"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Enemy",
+          "conditions": [
+            {
+              "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "EnemyRangeleft",
+                "Enemy",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "EnemyRangeleft",
+                "=",
+                "(Enemy.X() - 800)",
+                "=",
+                "Enemy.Y()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Enemy",
+          "conditions": [
+            {
+              "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "EnemyRangeleft",
+                "Enemy",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "FlippedX"
+              },
+              "parameters": [
+                "Enemy"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlipX"
+              },
+              "parameters": [
+                "EnemyRangeleft",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Enemy",
+          "conditions": [
+            {
+              "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "EnemyRangeleft",
+                "Enemy",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "FlippedX"
+              },
+              "parameters": [
+                "Enemy"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlipX"
+              },
+              "parameters": [
+                "EnemyRangeleft",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Elevator moves",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": []
-        },
         {
           "ambientLightColorB": 0,
           "ambientLightColorG": 8042920,
@@ -6080,6 +7845,22 @@
               "width": 0
             }
           ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Elevator moves",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
           "effects": []
         }
       ],
@@ -20636,6 +22417,50 @@
           "sharedPropertyDescriptors": []
         }
       ],
+      "eventsBasedObjects": []
+    },
+    {
+      "author": "",
+      "category": "",
+      "extensionNamespace": "",
+      "fullName": "",
+      "helpPath": "",
+      "iconUrl": "",
+      "name": "UntitledExtension",
+      "previewIconUrl": "",
+      "shortDescription": "",
+      "version": "",
+      "description": "",
+      "tags": [],
+      "authorIds": [],
+      "dependencies": [],
+      "eventsFunctions": [
+        {
+          "fullName": "",
+          "functionType": "Condition",
+          "name": "Function",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [],
       "eventsBasedObjects": []
     }
   ],
