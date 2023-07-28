@@ -255,7 +255,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "../../../Desktop/Assets/player_idle.png",
+        "file": "../../Assets/player_idle.png",
         "kind": "image",
         "metadata": "",
         "name": "..\\..\\..\\Desktop\\Assets\\player_idle.png",
@@ -2478,7 +2478,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "../../../Desktop/fire.png",
+        "file": "../../fire.png",
         "kind": "image",
         "metadata": "",
         "name": "..\\..\\..\\Desktop\\fire.png",
@@ -2487,7 +2487,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "../../../Desktop/free-video-3045163.webp",
+        "file": "../../free-video-3045163.webp",
         "kind": "image",
         "metadata": "",
         "name": "..\\..\\..\\Desktop\\free-video-3045163.webp",
