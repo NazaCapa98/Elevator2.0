@@ -3474,6 +3474,76 @@
         "name": "Close8",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "Intro_elevator.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Intro_elevator.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Stage Theme.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Stage Theme.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Lost.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Lost.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Points Theme.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Points Theme.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Press.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Press.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "walk.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "walk.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Win.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Win.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4501,6 +4571,39 @@
           "conditions": [
             {
               "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Intro_elevator.mp3",
+                "",
+                "100",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -4521,6 +4624,18 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Press.mp3",
+                "no",
+                "100",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "Scene"
@@ -4558,6 +4673,18 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Press.mp3",
+                "no",
+                "100",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "Scene"
@@ -5067,6 +5194,18 @@
           "actions": [
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Press.mp3",
+                "no",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
@@ -5102,6 +5241,18 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Press.mp3",
+                "no",
+                "100",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "Scene"
@@ -5141,6 +5292,18 @@
           "actions": [
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Press.mp3",
+                "no",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
@@ -5176,6 +5339,18 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Press.mp3",
+                "no",
+                "100",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "Scene"
@@ -5240,7 +5415,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4631443295144231,
+        "zoomFactor": 0.7873453601745186,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -9812,6 +9987,18 @@
                     "Player",
                     "\"Recharge\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Stage Theme.mp3",
+                    "yes",
+                    "100",
+                    "1"
+                  ]
                 }
               ]
             },
@@ -9892,6 +10079,18 @@
                   "parameters": [
                     "Player",
                     "\"Walk\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "walk.mp3",
+                    "no",
+                    "100",
+                    "1"
                   ]
                 }
               ]
@@ -10209,6 +10408,18 @@
                     "",
                     "\"Fail\"",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Lost.mp3",
+                    "no",
+                    "100",
+                    "1"
                   ]
                 }
               ]
@@ -12757,6 +12968,18 @@
                     "Door2",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Points Theme.mp3",
+                    "no",
+                    "100",
+                    "1"
+                  ]
                 }
               ]
             }
@@ -12853,6 +13076,18 @@
                     "",
                     "\"Win\"",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Win.mp3",
+                    "no",
+                    "100",
+                    "1"
                   ]
                 }
               ]
@@ -18432,6 +18667,18 @@
                     "Player",
                     "\"Recharge\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Stage Theme.mp3",
+                    "yes",
+                    "100",
+                    "1"
+                  ]
                 }
               ]
             },
@@ -18512,6 +18759,18 @@
                   "parameters": [
                     "Player",
                     "\"Walk\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "walk.mp3",
+                    "no",
+                    "100",
+                    "1"
                   ]
                 }
               ]
@@ -18829,6 +19088,18 @@
                     "",
                     "\"Fail\"",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Lost.mp3",
+                    "no",
+                    "100",
+                    "1"
                   ]
                 }
               ]
@@ -21425,6 +21696,18 @@
                     "Door2",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Points Theme.mp3",
+                    "no",
+                    "100",
+                    "1"
+                  ]
                 }
               ]
             }
@@ -21483,6 +21766,18 @@
                     "",
                     "\"Win\"",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Win.mp3",
+                    "no",
+                    "100",
+                    "1"
                   ]
                 }
               ]
@@ -27578,6 +27873,18 @@
                     "",
                     "\"Fire\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Stage Theme.mp3",
+                    "yes",
+                    "100",
+                    "1"
+                  ]
                 }
               ]
             },
@@ -27658,6 +27965,18 @@
                   "parameters": [
                     "Player",
                     "\"Walk\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "walk.mp3",
+                    "no",
+                    "100",
+                    "1"
                   ]
                 }
               ]
@@ -27976,6 +28295,18 @@
                     "\"Fail\"",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Lost.mp3",
+                    "no",
+                    "100",
+                    "1"
+                  ]
                 }
               ]
             },
@@ -28013,6 +28344,18 @@
                     "",
                     "\"Fail\"",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Lost.mp3",
+                    "no",
+                    "100",
+                    "1"
                   ]
                 }
               ]
@@ -31385,6 +31728,18 @@
                     "Door2",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Points Theme.mp3",
+                    "no",
+                    "100",
+                    "1"
+                  ]
                 }
               ]
             }
@@ -31443,6 +31798,18 @@
                     "",
                     "\"Win\"",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Win.mp3",
+                    "no",
+                    "100",
+                    "1"
                   ]
                 }
               ]
