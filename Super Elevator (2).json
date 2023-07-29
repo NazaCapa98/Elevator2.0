@@ -2739,7 +2739,7 @@
         "alwaysLoaded": false,
         "file": "Elevator2.0/enemy_idle.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Elevator2.0/enemy_idle.png\",\"extension\":\".png\"}",
         "name": "Elevator2.0\\enemy_idle.png",
         "smoothed": false,
         "userAdded": true
@@ -2748,7 +2748,7 @@
         "alwaysLoaded": false,
         "file": "Elevator2.0/enemy_die_0.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Elevator2.0/enemy_die_0.png\",\"extension\":\".png\"}",
         "name": "Elevator2.0\\enemy_die_0.png",
         "smoothed": false,
         "userAdded": true
@@ -2757,7 +2757,7 @@
         "alwaysLoaded": false,
         "file": "Elevator2.0/enemy_die_1.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Elevator2.0/enemy_die_1.png\",\"extension\":\".png\"}",
         "name": "Elevator2.0\\enemy_die_1.png",
         "smoothed": false,
         "userAdded": true
@@ -2766,7 +2766,7 @@
         "alwaysLoaded": false,
         "file": "Elevator2.0/enemy_die_2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Elevator2.0/enemy_die_2.png\",\"extension\":\".png\"}",
         "name": "Elevator2.0\\enemy_die_2.png",
         "smoothed": false,
         "userAdded": true
@@ -2775,7 +2775,7 @@
         "alwaysLoaded": false,
         "file": "Elevator2.0/enemy_shoot.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Elevator2.0/enemy_shoot.png\",\"extension\":\".png\"}",
         "name": "Elevator2.0\\enemy_shoot.png",
         "smoothed": false,
         "userAdded": true
@@ -2784,7 +2784,7 @@
         "alwaysLoaded": false,
         "file": "Elevator2.0/enemy_walk.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Elevator2.0/enemy_walk.png\",\"extension\":\".png\"}",
         "name": "Elevator2.0\\enemy_walk.png",
         "smoothed": false,
         "userAdded": true
@@ -3256,6 +3256,60 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "fire",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Enemigo Fuerte Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Enemigo Fuerte Idle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Enemigo Fuerte Idle Izquierda.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Enemigo Fuerte Idle Izquierda.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Die.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Die2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Die3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Die3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite12",
         "smoothed": false,
         "userAdded": false
       }
@@ -4837,7 +4891,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5466780531026131,
+        "zoomFactor": 0.5115940960124951,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -11941,7 +11995,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5115940960124971,
+        "zoomFactor": 0.25495369740768176,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -14982,6 +15036,7 @@
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
@@ -15011,11 +15066,12 @@
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 1,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Elevator2.0\\enemy_die_0.png",
+                      "image": "Die",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15032,7 +15088,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Elevator2.0\\enemy_die_1.png",
+                      "image": "Die2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15049,7 +15105,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Elevator2.0\\enemy_die_2.png",
+                      "image": "Die3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15074,6 +15130,7 @@
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
@@ -15103,6 +15160,7 @@
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
@@ -20011,7 +20069,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.21599615820125045,
+        "zoomFactor": 0.1403480161141073,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -21835,22 +21893,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 2186,
-          "layer": "",
-          "name": "WinCondition",
-          "persistentUuid": "8fbe0be9-8f1d-4cf2-995c-7040f4344ddc",
-          "width": 2074,
-          "x": -438,
-          "y": -182,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -21860,6 +21902,22 @@
           "x": 418,
           "y": 136,
           "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 2272,
+          "layer": "",
+          "name": "Lightsout",
+          "persistentUuid": "5ff7fac6-2a88-41f5-9ff3-67520c3a877f",
+          "width": 2644,
+          "x": -828,
+          "y": -330,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22922,6 +22980,7 @@
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
@@ -23014,6 +23073,7 @@
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
@@ -23043,6 +23103,7 @@
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
@@ -25259,6 +25320,48 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "fire",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Lightsout",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite4",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite12",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
