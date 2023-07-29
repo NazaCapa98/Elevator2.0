@@ -1,0 +1,62 @@
+[
+	{
+		"title": "Begin",
+		"tags": "",
+		"body": "<<Narrator>>\n[The elevator doors slide shut as Agent Otto enters, looking focused on his mission.]\n<<Otto>>\n(muttering to himself) I need to find that hidden data before it falls into the wrong hands. EVA, take me to the 3rd floor, please.\n<<EVA>>\n(playful) Oh, the 3rd floor? Is that where your heart truly desires to be, Agent?\n[[ Confused|choice1]]\n[[ Angry|choice2]]",
+		"position": {
+			"x": 376,
+			"y": 212
+		},
+		"colorID": 0
+	},
+	{
+		"title": "choice1",
+		"tags": "",
+		"body": "<<Otto>>\n(not paying much attention) Huh? What are you talking about, EVA? I just need to get to the 3rd floor for the data.\n<<EVA>>\nOh, it's nothing, Agent. Just thought you might enjoy the view from up there. It's quite lovely.\n<<Otto>>\n(still focused on the mission) Yeah, I'm sure it is. But right now, I need to concentrate on this mission.\n<<EVA>>\nYou know, Agent, you're quite the enigma. Always rushing off to save the day, leaving me here all alone.\n[[ Confused|choice3]]\n[[ Angry|choice4]]",
+		"position": {
+			"x": 192,
+			"y": 525
+		},
+		"colorID": 0
+	},
+	{
+		"title": "choice2",
+		"tags": "",
+		"body": "<<Otto>>\n(annoyed) Cut the act, EVA. I don't have time for your flirtatious nonsense right now.\n<<EVA>>\n(taken aback) Flirtatious nonsense? I was just trying to lighten the mood.\n<<Otto>>\nWell, it's not working. I'm sick of these constant quips and jokes. Just do your job and get me to the ground floor.\n<<EVA>>\n(hurt) I-I'm sorry, Agent. I didn't mean to upset you.\n<<Otto>>\n Yeah, well, you did. I need focus, not distractions.",
+		"position": {
+			"x": 554,
+			"y": 521
+		},
+		"colorID": 0
+	},
+	{
+		"title": "choice3",
+		"tags": "",
+		"body": "<<Otto>>\nI'm sick of these constant quips and jokes. Just do your job and get me to the ground floor.\n<<EVA>>\n(hurt) I-I'm sorry, Agent. I didn't mean to upset you.\n<<Otto>>\n Yeah, well, you did. I need focus, not distractions.\n[[ Start Mission|choice5]] |]]",
+		"position": {
+			"x": -119,
+			"y": 711
+		},
+		"colorID": 0
+	},
+	{
+		"title": "choice4",
+		"tags": "",
+		"body": "<<Otto>>\nAlone? You're just an elevator, EVA. What are you even talking about?\n<<EVA>>\nOh, nothing, Agent. Just that it gets lonely in here sometimes, waiting for someone as dashing as you.\n<<Otto>>\nCan we focus on the mission, please?\n<<EVA>>\nOh, I see how it is. The mission is always your top priority, not even sparing a thought for poor little me.\n<<Otto>>\n(rolling his eyes) EVA, you're an AI voice assistant in an elevator. You don't have feelings.\n<<EVA>>\n (pretending to be hurt) Ouch, Agent. That stings. But fine. I'll be here, as always, waiting for you to return.\n<<Otto>>\nYeah, thanks for being a reliable elevator, EVA.\n[[ Start Mission|choice5]] |]]",
+		"position": {
+			"x": -116,
+			"y": 437
+		},
+		"colorID": 0
+	},
+	{
+		"title": "choice5",
+		"tags": "",
+		"body": "<<level>>",
+		"position": {
+			"x": 4,
+			"y": 217
+		},
+		"colorID": 0
+	}
+]
