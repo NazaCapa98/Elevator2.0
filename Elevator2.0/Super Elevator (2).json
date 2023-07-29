@@ -2658,7 +2658,7 @@
         "alwaysLoaded": false,
         "file": "Elevator2.0/player_walk.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Elevator2.0/player_walk.png\",\"extension\":\".png\"}",
         "name": "Elevator2.0\\player_walk.png",
         "smoothed": false,
         "userAdded": true
@@ -3357,6 +3357,33 @@
         "name": "enemy_walk.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player_idle (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player_idle (2).png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "celeb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "celeb.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/celeb.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "celeb",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3770,7 +3797,7 @@
     },
     {
       "assetStoreId": "d00645a899e762e085fa6fdf2625701baea9cc10ee903a64ca7d371e5bbb8dca",
-      "name": "Yes",
+      "name": "YES",
       "tags": "",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
@@ -3810,8 +3837,8 @@
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "YES",
-          "font": "CarterOne-Regular.ttf",
+          "string": "BACK",
+          "font": "manaspc.ttf",
           "textAlignment": "center",
           "characterSize": 40,
           "color": {
@@ -3834,7 +3861,7 @@
     },
     {
       "assetStoreId": "d00645a899e762e085fa6fdf2625701baea9cc10ee903a64ca7d371e5bbb8dca",
-      "name": "No",
+      "name": "NO",
       "tags": "",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
@@ -3874,8 +3901,8 @@
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "NO",
-          "font": "CarterOne-Regular.ttf",
+          "string": "EXIT",
+          "font": "manaspc.ttf",
           "textAlignment": "center",
           "characterSize": 40,
           "color": {
@@ -3908,10 +3935,10 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "YOU WIN \nTRY AGAIN?\n",
-      "font": "e52c222618e05022eb341c976a201920125d3d17c643c2527d9df54b5d8bcb28_MPLUS1p-Bold.ttf",
-      "textAlignment": "left",
-      "characterSize": 120,
+      "string": "CONGRATS!",
+      "font": "manaspc.ttf",
+      "textAlignment": "center",
+      "characterSize": 60,
       "color": {
         "b": 255,
         "g": 255,
@@ -3930,10 +3957,10 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "YOU DIE\nTRY AGAIN?\n",
-      "font": "e52c222618e05022eb341c976a201920125d3d17c643c2527d9df54b5d8bcb28_MPLUS1p-Bold.ttf",
-      "textAlignment": "left",
-      "characterSize": 120,
+      "string": "BETTER LUCK \nNEXT TIME",
+      "font": "manaspc.ttf",
+      "textAlignment": "center",
+      "characterSize": 60,
       "color": {
         "b": 255,
         "g": 255,
@@ -4296,6 +4323,15 @@
                 "yes",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
             }
           ],
           "actions": [
@@ -4323,6 +4359,15 @@
                 "",
                 "yes",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
               ]
             }
           ],
@@ -4785,6 +4830,15 @@
                 "yes",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
             }
           ],
           "actions": [
@@ -4812,6 +4866,15 @@
                 "",
                 "yes",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
               ]
             }
           ],
@@ -4841,6 +4904,15 @@
                 "yes",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
             }
           ],
           "actions": [
@@ -4868,6 +4940,15 @@
                 "",
                 "yes",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
               ]
             }
           ],
@@ -4936,7 +5017,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.41928292690094815,
+        "zoomFactor": 0.32157532535447864,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -6005,8 +6086,8 @@
           "name": "Enemy",
           "persistentUuid": "664e2d23-4de6-49aa-9876-fce7c0e1a0c3",
           "width": 29,
-          "x": 1375,
-          "y": -165,
+          "x": 1387,
+          "y": -551,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
@@ -7221,8 +7302,26 @@
               "directions": [
                 {
                   "looping": true,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.4,
                   "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "player_idle (2).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
                     {
                       "hasCustomCollisionMask": false,
                       "image": "Elevator2.0\\player_walk.png",
@@ -9296,6 +9395,15 @@
                     "",
                     "\"bala\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"Recharge\""
+                  ]
                 }
               ]
             },
@@ -9497,6 +9605,17 @@
                   "parameters": [
                     "Player"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"Recharge\"",
+                    ">",
+                    "1"
+                  ]
                 }
               ],
               "actions": [
@@ -9531,6 +9650,15 @@
                     "Player",
                     "\"Shoot\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"Recharge\""
+                  ]
                 }
               ]
             },
@@ -9553,6 +9681,17 @@
                   },
                   "parameters": [
                     "Player"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"Recharge\"",
+                    ">",
+                    "1"
                   ]
                 }
               ],
@@ -9588,6 +9727,15 @@
                     "Player",
                     "\"Shoot\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"Recharge\""
+                  ]
                 }
               ]
             },
@@ -9621,8 +9769,41 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Player",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"Die\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Fail\"",
+                    ""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -12163,7 +12344,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.25495369740768176,
+        "zoomFactor": 0.272437840890838,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -20237,7 +20418,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.37957535391816327,
+        "zoomFactor": 0.4949057120437875,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -22047,37 +22228,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 33,
-          "layer": "",
-          "name": "Floor13",
-          "persistentUuid": "8cf1bf92-5894-430a-8f4a-5d0cff3ece57",
-          "width": 28,
-          "x": 922,
-          "y": 123,
-          "zOrder": 84,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Fuego",
-          "persistentUuid": "06b58d55-2b4b-4868-8a27-7056cc7e73c0",
-          "width": 0,
-          "x": 418,
-          "y": 136,
-          "zOrder": 85,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
           "height": 2272,
           "layer": "",
           "name": "Lightsout",
@@ -22131,8 +22281,8 @@
           "name": "EnemyStrong",
           "persistentUuid": "4e19e9e3-008a-4d81-a75f-00edeec969d2",
           "width": 29,
-          "x": 557,
-          "y": 814,
+          "x": 563,
+          "y": 932,
           "zOrder": 86,
           "numberProperties": [],
           "stringProperties": [],
@@ -22163,8 +22313,8 @@
           "name": "EnemyStrong",
           "persistentUuid": "31512d15-0b3b-4117-a4e8-854ca4709ad7",
           "width": 29,
-          "x": 519,
-          "y": 1169,
+          "x": 449,
+          "y": 1617,
           "zOrder": 86,
           "numberProperties": [],
           "stringProperties": [],
@@ -28690,25 +28840,773 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Enemigos",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
           "name": "Fire",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Fire\"",
+                    ">",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "446",
+                    "-9",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "828",
+                    "-9",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Fire\"",
+                    ">",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "418",
+                    "136",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "413",
+                    "136",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Fire\"",
+                    ">",
+                    "4"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "527",
+                    "138",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "727",
+                    "249",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "521",
+                    "247",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Fire\"",
+                    ">",
+                    "6"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "413",
+                    "357",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "521",
+                    "247",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "534",
+                    "356",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "686",
+                    "356",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Fire\"",
+                    ">",
+                    "8"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "527",
+                    "465",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "408",
+                    "465",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "686",
+                    "464",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "769",
+                    "356",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Fire\"",
+                    ">",
+                    "10"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "428",
+                    "573",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "522",
+                    "573",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "673",
+                    "572",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "785",
+                    "573",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Fire\"",
+                    ">",
+                    "12"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "685",
+                    "513",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "690",
+                    "683",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Fire\"",
+                    ">",
+                    "16"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "686",
+                    "783",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Fire\"",
+                    ">",
+                    "18"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "519",
+                    "785",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Fire\"",
+                    ">",
+                    "20"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "485",
+                    "903",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "714",
+                    "903",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Fire\"",
+                    ">",
+                    "22"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "507",
+                    "1013",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "688",
+                    "1013",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Fire\"",
+                    ">",
+                    "24"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "483",
+                    "1140",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "726",
+                    "1140",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Fire\"",
+                    ">",
+                    "26"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "518",
+                    "1267",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "698",
+                    "1267",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "761",
+                    "1267",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Fire\"",
+                    ">",
+                    "30"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "486",
+                    "1396",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "721",
+                    "1396",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Fire\"",
+                    ">",
+                    "34"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "700",
+                    "1587",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "786",
+                    "1587",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "441",
+                    "1587",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fuego",
+                    "511",
+                    "1587",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Fuego",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"Die\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Fail\"",
+                    ""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -28810,7 +29708,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4633111824513976,
+        "zoomFactor": 0.367325754505882,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -28834,32 +29732,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 32,
-          "height": 94,
+          "customSize": false,
+          "height": 0,
           "layer": "",
-          "name": "Yes",
-          "persistentUuid": "54d0d7e1-0128-434a-b5ef-529ee3ee4476",
-          "width": 311,
-          "x": 482,
-          "y": 664,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 32,
-          "height": 101,
-          "layer": "",
-          "name": "No",
-          "persistentUuid": "49f97a54-02bd-405b-9c2b-e4ea76dc4381",
-          "width": 312,
-          "x": 483,
-          "y": 790,
-          "zOrder": 4,
+          "name": "Fail",
+          "persistentUuid": "a580799d-c1a4-4907-b74a-58cdafb94cb3",
+          "width": 0,
+          "x": 159,
+          "y": 10,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -28869,12 +29750,27 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "Fail",
-          "persistentUuid": "a580799d-c1a4-4907-b74a-58cdafb94cb3",
+          "name": "YES",
+          "persistentUuid": "d90c7778-7814-49bb-8f0f-005435c01b50",
           "width": 0,
-          "x": 314,
-          "y": 241,
-          "zOrder": 5,
+          "x": 303,
+          "y": 150,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NO",
+          "persistentUuid": "e1a7cc86-e212-4916-811a-b9d7c9ffaeda",
+          "width": 0,
+          "x": 301,
+          "y": 253,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -28903,7 +29799,7 @@
                 "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
               },
               "parameters": [
-                "Yes",
+                "YES",
                 ""
               ]
             }
@@ -28915,7 +29811,7 @@
               },
               "parameters": [
                 "",
-                "\"Level1\"",
+                "\"Level Selector\"",
                 ""
               ]
             }
@@ -28929,7 +29825,7 @@
                 "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
               },
               "parameters": [
-                "No",
+                "NO",
                 ""
               ]
             }
@@ -28997,7 +29893,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4057518905943824,
+        "zoomFactor": 0.3797121001947931,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -29027,8 +29923,8 @@
           "name": "NewText",
           "persistentUuid": "8b630da3-2200-48e0-9bad-18ecbe691b39",
           "width": 0,
-          "x": 313,
-          "y": 146,
+          "x": 226,
+          "y": 33,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -29038,13 +29934,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 32,
-          "height": 129,
+          "height": 87,
           "layer": "",
-          "name": "Yes",
+          "name": "YES",
           "persistentUuid": "3bf3f32d-d2fe-473a-ab11-c74df10dce7c",
-          "width": 323,
-          "x": 516,
-          "y": 557,
+          "width": 223,
+          "x": 284,
+          "y": 183,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -29054,13 +29950,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 32,
-          "height": 103,
+          "height": 87,
           "layer": "",
-          "name": "No",
+          "name": "NO",
           "persistentUuid": "00889558-c3d0-46e1-99c2-6d0348541a8a",
-          "width": 330,
-          "x": 514,
-          "y": 720,
+          "width": 223,
+          "x": 283,
+          "y": 280,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -29082,8 +29978,75 @@
           "initialVariables": []
         }
       ],
-      "objects": [],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "Celeb",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "celeb",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "celeb",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Celeb\""
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -29092,7 +30055,7 @@
                 "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
               },
               "parameters": [
-                "Yes",
+                "YES",
                 ""
               ]
             }
@@ -29104,7 +30067,7 @@
               },
               "parameters": [
                 "",
-                "\"Level1\"",
+                "\"Menu\"",
                 ""
               ]
             }
@@ -29118,7 +30081,7 @@
                 "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
               },
               "parameters": [
-                "No",
+                "NO",
                 ""
               ]
             }
@@ -29129,6 +30092,48 @@
                 "value": "Quit"
               },
               "parameters": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Celeb\"",
+                ">",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Celeb",
+                "530",
+                "86",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Celeb",
+                "-7",
+                "86",
                 ""
               ]
             }
