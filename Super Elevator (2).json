@@ -2444,7 +2444,7 @@
         "alwaysLoaded": false,
         "file": "enemy_idle.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"enemy_idle.png\",\"extension\":\".png\"}",
         "name": "enemy_idle.png",
         "smoothed": false,
         "userAdded": true
@@ -2453,7 +2453,7 @@
         "alwaysLoaded": false,
         "file": "enemy_die_0.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"enemy_die_0.png\",\"extension\":\".png\"}",
         "name": "enemy_die_0.png",
         "smoothed": false,
         "userAdded": true
@@ -2462,7 +2462,7 @@
         "alwaysLoaded": false,
         "file": "enemy_die_1.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"enemy_die_1.png\",\"extension\":\".png\"}",
         "name": "enemy_die_1.png",
         "smoothed": false,
         "userAdded": true
@@ -2471,7 +2471,7 @@
         "alwaysLoaded": false,
         "file": "enemy_die_2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"enemy_die_2.png\",\"extension\":\".png\"}",
         "name": "enemy_die_2.png",
         "smoothed": false,
         "userAdded": true
@@ -3312,6 +3312,51 @@
         "name": "NewSprite12",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle2.png\"}",
+        "name": "Idle2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "enemy_idle4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"enemy_idle4.png\",\"extension\":\".png\"}",
+        "name": "enemy_idle4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "enemy_shoot.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"enemy_shoot.png\",\"extension\":\".png\"}",
+        "name": "enemy_shoot.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "enemy_walk.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"enemy_walk.png\",\"extension\":\".png\"}",
+        "name": "enemy_walk.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4891,7 +4936,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5115940960124951,
+        "zoomFactor": 0.41928292690094815,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4938,7 +4983,7 @@
           "name": "Player",
           "persistentUuid": "c418c251-272e-4cdf-8bcc-5fa50a71417c",
           "width": 26,
-          "x": 754,
+          "x": 769,
           "y": 23,
           "zOrder": 47,
           "numberProperties": [],
@@ -7500,6 +7545,7 @@
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
@@ -7529,6 +7575,7 @@
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 1,
                   "sprites": [
                     {
@@ -7592,6 +7639,7 @@
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
@@ -7621,6 +7669,7 @@
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
@@ -9573,27 +9622,7 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Player",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Fail\"",
-                    ""
-                  ]
-                }
-              ]
+              "actions": []
             }
           ],
           "parameters": []
@@ -11767,6 +11796,25 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "EnemyRangeleft",
+                    "Enemy",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlippedX"
+                  },
+                  "parameters": [
+                    "Enemy"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "CollisionNP"
                   },
                   "parameters": [
@@ -11776,126 +11824,246 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"bala\"",
+                    ">",
+                    "1"
+                  ]
                 }
               ],
-              "actions": [],
-              "events": [
+              "actions": [
                 {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "Enemy",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "FlippedX"
-                      },
-                      "parameters": [
-                        "Enemy"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "Bullet3",
-                        " (Enemy.X() + 20)",
-                        "(Enemy.Y())",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AddForceXY"
-                      },
-                      "parameters": [
-                        "Bullet3",
-                        "-50",
-                        "0",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetAnimationName"
-                      },
-                      "parameters": [
-                        "Enemy",
-                        "\"Shoot\""
-                      ]
-                    }
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Bullet3",
+                    " (Enemy.X() + 20)",
+                    "(Enemy.Y())",
+                    ""
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "Enemy",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "FlippedX"
-                      },
-                      "parameters": [
-                        "Enemy"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "Bullet3",
-                        " (Enemy.X() + 20)",
-                        "(Enemy.Y())",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetAnimationName"
-                      },
-                      "parameters": [
-                        "Enemy",
-                        "\"Shoot\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AddForceXY"
-                      },
-                      "parameters": [
-                        "Bullet3",
-                        "50",
-                        "0",
-                        "1"
-                      ]
-                    }
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "\"Shoot\""
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": []
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Bullet3",
+                    "50",
+                    "0",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"bala\""
+                  ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Enemy",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "EnemyRangeleft",
+                    "Enemy",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "FlippedX"
+                  },
+                  "parameters": [
+                    "Enemy"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "EnemyRangeleft",
+                    "Player",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"bala\"",
+                    ">",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Bullet3",
+                    " (Enemy.X() + 20)",
+                    "(Enemy.Y())",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Bullet3",
+                    "-50",
+                    "0",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "\"Shoot\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"bala\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"bala\"",
+                    ">=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "\"Idle\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "Bullet",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Bullet",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Enemy2",
+                    " Enemy.X()",
+                    "Enemy.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Enemy2",
+                    "\"Die\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Win Condition",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
           "parameters": []
         }
       ],
@@ -20069,7 +20237,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.1403480161141073,
+        "zoomFactor": 0.37957535391816327,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -21921,6 +22089,102 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 58,
+          "layer": "",
+          "name": "EnemyStrong",
+          "persistentUuid": "23c2dc04-532b-4585-8552-84d213c33ebe",
+          "width": 29,
+          "x": 817,
+          "y": 168,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 58,
+          "layer": "",
+          "name": "EnemyStrong",
+          "persistentUuid": "bb0d6e37-274a-4d84-95ec-f1c7af8b6007",
+          "width": 29,
+          "x": 436,
+          "y": 602,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 58,
+          "layer": "",
+          "name": "EnemyStrong",
+          "persistentUuid": "4e19e9e3-008a-4d81-a75f-00edeec969d2",
+          "width": 29,
+          "x": 557,
+          "y": 814,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 58,
+          "layer": "",
+          "name": "EnemyStrong",
+          "persistentUuid": "afb0ee95-c36b-4687-9c18-fc2049f2da53",
+          "width": 29,
+          "x": 520,
+          "y": 1044,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 58,
+          "layer": "",
+          "name": "EnemyStrong",
+          "persistentUuid": "31512d15-0b3b-4117-a4e8-854ca4709ad7",
+          "width": 29,
+          "x": 519,
+          "y": 1169,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 58,
+          "layer": "",
+          "name": "EnemyStrong",
+          "persistentUuid": "dfa624e4-1136-4b86-a9df-e1b4a06cddfe",
+          "width": 29,
+          "x": 809,
+          "y": 1428,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -23145,11 +23409,12 @@
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Elevator2.0\\enemy_idle.png",
+                      "image": "Idle2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -23174,6 +23439,7 @@
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 1,
                   "sprites": [
                     {
@@ -25381,6 +25647,189 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "EnemyStrong",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "enemy_idle4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Shoot",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "enemy_shoot.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Walk",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "enemy_idle.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "enemy_walk.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Die",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "enemy_die_0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "enemy_die_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "enemy_die_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -25434,6 +25883,15 @@
                   "parameters": [
                     "",
                     "\"bala\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Fire\""
                   ]
                 }
               ]
@@ -27644,17 +28102,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Enemigos",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
           "name": "Enemy 1",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -27968,6 +28415,25 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "EnemyRangeleft",
+                    "Enemy",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlippedX"
+                  },
+                  "parameters": [
+                    "Enemy"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "CollisionNP"
                   },
                   "parameters": [
@@ -27977,113 +28443,244 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"bala\"",
+                    ">",
+                    "1"
+                  ]
                 }
               ],
-              "actions": [],
-              "events": [
+              "actions": [
                 {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "Enemy",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "FlippedX"
-                      },
-                      "parameters": [
-                        "Enemy"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "Bullet3",
-                        " (Enemy.X() + 20)",
-                        "(Enemy.Y())",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AddForceXY"
-                      },
-                      "parameters": [
-                        "Bullet3",
-                        "-50",
-                        "0",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetAnimationName"
-                      },
-                      "parameters": [
-                        "Enemy",
-                        "\"Shoot\""
-                      ]
-                    }
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Bullet3",
+                    " (Enemy.X() + 20)",
+                    "(Enemy.Y())",
+                    ""
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "Enemy",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "FlippedX"
-                      },
-                      "parameters": [
-                        "Enemy"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "Bullet3",
-                        " (Enemy.X() + 20)",
-                        "(Enemy.Y())",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetAnimationName"
-                      },
-                      "parameters": [
-                        "Enemy",
-                        "\"Shoot\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AddForceXY"
-                      },
-                      "parameters": [
-                        "Bullet3",
-                        "50",
-                        "0",
-                        "1"
-                      ]
-                    }
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "\"Shoot\""
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": []
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Bullet3",
+                    "50",
+                    "0",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"bala\""
+                  ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Enemy",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "EnemyRangeleft",
+                    "Enemy",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "FlippedX"
+                  },
+                  "parameters": [
+                    "Enemy"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "EnemyRangeleft",
+                    "Player",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"bala\"",
+                    ">",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Bullet3",
+                    " (Enemy.X() + 20)",
+                    "(Enemy.Y())",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Bullet3",
+                    "-50",
+                    "0",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "\"Shoot\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"bala\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"bala\"",
+                    ">=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "\"Idle\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "Bullet",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Bullet",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Enemy2",
+                    " Enemy.X()",
+                    "Enemy.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Enemy2",
+                    "\"Die\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ],
           "parameters": []
@@ -28093,10 +28690,27 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Win Condition",
+          "name": "Enemigos",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Fire",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ],
           "parameters": []
         }
       ],
