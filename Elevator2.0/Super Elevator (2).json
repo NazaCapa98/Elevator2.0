@@ -3544,6 +3544,15 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite14",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4207,6 +4216,71 @@
         "g": 255,
         "r": 255
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Ladder",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "Ladder",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsGroups": [],
@@ -5415,7 +5489,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7873453601745186,
+        "zoomFactor": 0.5288452177971392,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -5469,7 +5543,7 @@
           "name": "Player",
           "persistentUuid": "c418c251-272e-4cdf-8bcc-5fa50a71417c",
           "width": 26,
-          "x": 769,
+          "x": 777,
           "y": 23,
           "zOrder": 47,
           "numberProperties": [],
@@ -5580,8 +5654,8 @@
           "layer": "",
           "name": "Platform",
           "persistentUuid": "ba641e46-a516-4dd1-b1a9-450dc5a1d351",
-          "width": 356,
-          "x": 320,
+          "width": 295,
+          "x": 367,
           "y": 183,
           "zOrder": 5,
           "numberProperties": [],
@@ -5676,8 +5750,8 @@
           "layer": "",
           "name": "Platform",
           "persistentUuid": "e3d6592f-ba66-491d-8d10-e034b6c11236",
-          "width": 356,
-          "x": 320,
+          "width": 303,
+          "x": 367,
           "y": 510,
           "zOrder": 5,
           "numberProperties": [],
@@ -5885,8 +5959,8 @@
           "name": "Door",
           "persistentUuid": "9d114c72-3dad-47b8-a554-10e0fe411528",
           "width": 42,
-          "x": 389,
-          "y": 159,
+          "x": 409,
+          "y": 158,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -6677,8 +6751,8 @@
           "name": "Enemy",
           "persistentUuid": "0bc02c5b-6893-4203-8a88-a3d116910ab4",
           "width": 29,
-          "x": 432,
-          "y": 278,
+          "x": 735,
+          "y": 276,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
@@ -6934,6 +7008,38 @@
           "x": 30,
           "y": 20,
           "zOrder": 80,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 114,
+          "layer": "",
+          "name": "Ladder",
+          "persistentUuid": "a4ddb50f-43f2-46e6-a1b9-adf895397ded",
+          "width": 75,
+          "x": 378,
+          "y": 220,
+          "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 114,
+          "layer": "",
+          "name": "Ladder",
+          "persistentUuid": "07b9af2e-0776-45bd-944a-c08eeafa4058",
+          "width": 75,
+          "x": 379,
+          "y": 548,
+          "zOrder": 47,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8024,7 +8130,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "Elevator2.0\\NewSprite8.png",
                       "points": [],
                       "originPoint": {
@@ -8038,7 +8144,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19.5,
+                            "y": 28
+                          },
+                          {
+                            "x": 43,
+                            "y": 28
+                          },
+                          {
+                            "x": 43,
+                            "y": 31.5
+                          },
+                          {
+                            "x": 19.5,
+                            "y": 32
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -13267,7 +13392,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4334212855930587,
+        "zoomFactor": 0.4192829269009505,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -13305,8 +13430,8 @@
           "name": "Wall",
           "persistentUuid": "30c6bf06-d61e-4b6b-92b9-d61d69917c24",
           "width": 54,
-          "x": 325,
-          "y": 88,
+          "x": 328,
+          "y": 86,
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
@@ -13400,8 +13525,8 @@
           "layer": "",
           "name": "Platform",
           "persistentUuid": "ba641e46-a516-4dd1-b1a9-450dc5a1d351",
-          "width": 356,
-          "x": 320,
+          "width": 282,
+          "x": 378,
           "y": 183,
           "zOrder": 5,
           "numberProperties": [],
@@ -13496,8 +13621,8 @@
           "layer": "",
           "name": "Platform",
           "persistentUuid": "e3d6592f-ba66-491d-8d10-e034b6c11236",
-          "width": 356,
-          "x": 320,
+          "width": 290,
+          "x": 375,
           "y": 510,
           "zOrder": 5,
           "numberProperties": [],
@@ -13705,7 +13830,7 @@
           "name": "Door",
           "persistentUuid": "9d114c72-3dad-47b8-a554-10e0fe411528",
           "width": 42,
-          "x": 389,
+          "x": 420,
           "y": 159,
           "zOrder": 20,
           "numberProperties": [],
@@ -14465,8 +14590,8 @@
           "name": "Enemy",
           "persistentUuid": "0bc02c5b-6893-4203-8a88-a3d116910ab4",
           "width": 29,
-          "x": 430,
-          "y": 280,
+          "x": 806,
+          "y": 276,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
@@ -14625,8 +14750,8 @@
           "name": "Door2",
           "persistentUuid": "feba0988-7393-4235-aff1-d4d9bf091221",
           "width": 42,
-          "x": 411,
-          "y": 485,
+          "x": 416,
+          "y": 486,
           "zOrder": 76,
           "numberProperties": [],
           "stringProperties": [],
@@ -15130,22 +15255,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 33,
-          "layer": "",
-          "name": "Floor13",
-          "persistentUuid": "8cf1bf92-5894-430a-8f4a-5d0cff3ece57",
-          "width": 28,
-          "x": 922,
-          "y": 123,
-          "zOrder": 84,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "Score",
@@ -15170,6 +15279,38 @@
           "x": 30,
           "y": 20,
           "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 114,
+          "layer": "",
+          "name": "Ladder",
+          "persistentUuid": "01229188-01d9-4d40-a262-6ba5c85cf0eb",
+          "width": 75,
+          "x": 382,
+          "y": 220,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 114,
+          "layer": "",
+          "name": "Ladder",
+          "persistentUuid": "7dfb6445-787f-4766-8a32-a4cb5c1c21b3",
+          "width": 75,
+          "x": 382,
+          "y": 549,
+          "zOrder": 87,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
